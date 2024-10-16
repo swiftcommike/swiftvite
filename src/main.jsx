@@ -7,7 +7,7 @@ import HeadlineComponent from './HeadlineComponent';
 import OnboardingComponent from './OnboardingComponent';
 import './index.css';
 
-// Configure Amplify
+// Configure Amplify 
 Amplify.configure({
   Auth: {
     mandatorySignIn: false,
