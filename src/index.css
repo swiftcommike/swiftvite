@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.auth-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.newsletter-form, .user-info-form, .headline-list {
+  margin-top: 2rem;
+}
+
+.newsletter-form h2, .user-info-form h2, .headline-list h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter-option, .form-group, .headline-item {
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-option label {
+  margin-left: 0.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.sign-out-button {
+  background-color: #dc3545;
+  margin-top: 2rem;
+}
+
+.sign-out-button:hover {
+  background-color: #c82333;
+}
+
+.headline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.bookmark-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: #007bff;
+}
+
+.bookmark-button.bookmarked {
+  color: #ffc107;
+}
